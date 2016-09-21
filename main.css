@@ -1,4 +1,6 @@
-
+p{
+    font-family: 'Raleway';
+}
 .jumbotron{
     background: url(http://placehold.it/850x450);
     background-size: cover;
@@ -28,16 +30,21 @@
 #leftBtn {
     border-radius: 30px 0px 0px 30px;
     min-width: 225px;
+    font-size: 12px;
+    font-family: 'Raleway';
+    height: 50px;
 }
 
 #middleBtn {
-    min-width: 225px
+    min-width: 225px;
+    height: 50px;
 }
 
 #rightBtn {
      border-radius: 0px 30px 30px 0px;
     width: 225px;
-    margin-right: 20px
+    margin-right: 20px;
+     height: 50px;
 }
 
 #round {
@@ -47,12 +54,13 @@
 .shadow {
     background-color: gainsboro;
     border-radius: 30px;
-    height: 50px;
-    padding-top:10px; 
+    height: 60px;
+    padding-top:20px; 
     padding-left: 10px;
-    width: 75%;
+    width: 754px;
     display: block;
     margin: 0 auto;
+    position: relative;
     
 }
 
@@ -106,10 +114,12 @@
 
 
 
-#search {
+#searchBtn {
     border-radius: 100%;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: #F0692F;
+    color: white;
 }
 
 .bottomHead {
@@ -215,4 +225,81 @@
     margin-top: 30px;
     border-radius: 0px;
     width: 200px;
+}
+
+
+
+#dropCaret {
+    position: absolute;
+    right: 10px;
+    bottom: 28px;
+}
+
+#dropMain {
+    float: left;
+}
+
+#arrive {
+    float: left;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#depart {
+    float: right;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#guests {
+     float: left;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#bottomSearchBar {
+  position: absolute;
+    top:5px;
+    left: 4px;
+}
+
+#whereToDrop {
+    width: 660px;
+    left: 10px;
+    top: 60px;
+    
+}
+
+#login {
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.bannerWhite {
+    height: 120px;
+    
+}
+
+.bannerPicture {
+    height: 300px;
+    background-image: url(http://placehold.it/1200x300);
+    color: white;
+}
+
+.transparentBtn {
+    border-radius: 0px;
+    font-size: 15px;
+    border: 4px solid
+}
+
+.captionCard {
+    padding: 10px 20px;
+    line-height: 11px;
+    box-shadow: 1px 5px 4px 1px rgba(189,189,189,1);
+    width: 140px;
+    display: block;
+    margin: 0 auto;
 }

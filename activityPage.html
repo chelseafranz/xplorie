@@ -200,26 +200,30 @@
         <div class="bottomSearch">
             <h2 class="bottomHead text-center">Find your place to get away!</h2>
             <div class="shadow">
-            <div class="btn-group bottomSearchBar" role="group" aria-label="...">
+            <div class="btn-group" id="bottomSearchBar" role="group" aria-label="...">
              <button type="button" id="leftBtn" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Where to?
-                  <span class="caret"></span>
+                 <span id="dropMain"> WHERE TO?</span>
+                 
+                  <span class="caret" id="dropCaret"></span>
                 </button>
-                <ul class="dropdown-menu">
+                <ul id="whereToDrop" class="dropdown-menu">
                   <li><a href="#">Dropdown link</a></li>
                   <li><a href="#">Dropdown link</a></li>
                 </ul>
               <button type="button" id="middleBtn" class="btn btn-default">
-                <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                <span id="arrive">
                   Arrive 
-                <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-                  Depart
+                  </span>
+                  
+                <span class="glyphicon glyphicon-arrow-right"></span>
+                  <span id="depart">Depart</span>
                 </button>
 
               <div class="btn-group" role="group">
                 <button type="button" id="rightBtn" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  4 guests
-                  <span class="caret"></span>
+                    <span id="guests"> 4 guests</span>
+                 
+                  <span id="dropCaret" class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
                     <li><a href="#">1 guest</a></li>
@@ -228,7 +232,7 @@
                     <li><a href="#">4 guests</a></li>
                     <li><a href="#">5 guests</a></li>
                 </ul>
-                  <button type="button" id="search" class="pull-right btn btn-default">
+                  <button type="button" id="searchBtn" class="pull-right btn btn-default">
                 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                     </button>
               </div>
