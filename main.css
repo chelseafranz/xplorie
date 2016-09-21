@@ -193,3 +193,7 @@
 .personalInfo {
     border-right: 2px solid black;
 }
+
+.jumbotron.xplorieCard {
+    height: 75vh;
+}
